@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --primary-color: #5c6c79;
+  --text-dark: #242424;
+  --text-light: #e2e8f0;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.section__header {
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+nav {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__logo a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.nav__icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav__icons span {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
