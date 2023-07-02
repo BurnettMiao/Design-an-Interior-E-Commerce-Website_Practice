@@ -123,12 +123,12 @@ nav {
   place-content: center;
   font-size: 1.5rem;
   color: var(--white);
-  background-color: var(--primay-color);
+  background-color: var(--primary-color);
   border-radius: 5px;
   cursor: pointer;
 }
 
-.images__box {
+.image__box {
   position: absolute;
   bottom: 4rem;
   right: min(100%, 950px);
