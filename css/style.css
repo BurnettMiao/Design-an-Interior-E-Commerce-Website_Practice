@@ -186,3 +186,40 @@ nav {
   line-height: 1.7rem;
   color: var(--primary-color);
 }
+
+.experience__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.experience__image img {
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+.experience__description {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+
+.experience__features {
+  margin: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+
+.experience__col h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.experience__col p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
