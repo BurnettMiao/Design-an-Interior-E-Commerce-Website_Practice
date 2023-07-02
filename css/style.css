@@ -78,3 +78,63 @@ nav {
   color: var(--primary-color);
   cursor: pointer;
 }
+
+.header__container {
+  padding-top: 2rem;
+  position: relative;
+}
+
+.header__container img {
+  display: flex;
+  max-width: 1000px;
+  margin-left: auto;
+  border-radius: 5px;
+}
+
+.header__ribbon {
+  position: absolute;
+  top: 50%;
+  left: calc(25rem + -100%);
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}
+
+.header__content {
+  max-width: 450px;
+  padding: 2rem 5rem;
+  color: var(--white);
+}
+
+.header__content p {
+  color: var(--text-lignt);
+}
+
+.arrow__down {
+  position: absolute;
+  bottom: 4rem;
+  right: 0;
+  height: 80px;
+  width: 100px;
+  display: grid;
+  place-content: center;
+  font-size: 1.5rem;
+  color: var(--white);
+  background-color: var(--primay-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.images__box {
+  position: absolute;
+  bottom: 4rem;
+  right: min(100%, 950px);
+  height: 80px;
+  width: 100px;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  z-index: -1;
+}
