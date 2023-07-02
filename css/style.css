@@ -460,3 +460,68 @@ footer {
   color: var(--white);
   border-top: 1px solid var(--white);
 }
+
+@media (width < 900px) {
+  .benefits__grid {
+    gap: 1rem;
+  }
+
+  .benefits__card {
+    flex-direction: column;
+  }
+
+  .customer__card {
+    gap: 1rem;
+  }
+
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width < 600px) {
+  .nav__links {
+    display: none;
+  }
+
+  .header__ribbon {
+    background-color: rgba(92, 108, 121, 0.7);
+  }
+
+  .arrow__down {
+    display: none;
+  }
+
+  .benefits__container .section__header {
+    margin-left: 5rem;
+  }
+
+  .benefits__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .benefits__card {
+    flex-direction: row;
+  }
+
+  .experience__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .process__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .process__image {
+    grid-area: 1/1/2/2;
+  }
+
+  .customer__grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  .footer__container {
+    gap: 2rem;
+  }
+}
