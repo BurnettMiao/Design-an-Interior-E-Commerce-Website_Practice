@@ -411,3 +411,52 @@ nav {
   background-color: var(--primary-color);
   cursor: pointer;
 }
+
+footer {
+  background-color: var(--primary-color);
+}
+
+.footer__container {
+  padding-top: 6rem;
+  display: grid;
+  grid-template-columns: 350px repeat(3, 1fr);
+  gap: 5rem;
+}
+
+.footer__logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+}
+
+.footer__col i {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.footer__col h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+}
+
+.footer__col p {
+  margin-bottom: 1rem;
+  color: var(--text-light);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.footer__col p:hover {
+  color: var(--white);
+}
+
+.footer__bar {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--white);
+  border-top: 1px solid var(--white);
+}
